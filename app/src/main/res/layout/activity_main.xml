@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/heading"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/darker_gray"/>
+
+
+
+        <ImageButton
+            android:id="@+id/servicesButton"
+            android:layout_width="144dp"
+            android:layout_height="189dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/services"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="50dp"
+            />
+
+        <ImageButton
+            android:id="@+id/requestQuoteButton"
+            android:layout_width="140dp"
+            android:layout_height="187dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/requestquote"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="220dp"
+            />
+
+        <ImageButton
+            android:id="@+id/aboutUsButton"
+            android:layout_width="138dp"
+            android:layout_height="166dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutus"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="52dp"
+            />
+
+        <ImageButton
+            android:id="@+id/disclaimerButton"
+            android:layout_width="143dp"
+            android:layout_height="167dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/disclaimer"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="220dp"
+            />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="540dp"
+        android:background="@android:color/darker_gray"/>
+
+    <ImageButton
+        android:id="@+id/helpButton"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/help"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="240dp"
+        />
+
+
+</RelativeLayout>
